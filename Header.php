@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
     <meta charset="utf-8">
-    <meta name="author" content="Clotilde LARFAILLOU">
+    <meta name="author" content="Agence Bzzz">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style/normalize.css">
     <title>FaceUp</title>
 </head>
 <body>
