@@ -19,16 +19,3 @@
         <a href="">E-shop</a>
       </nav>
     </header>
-    <main>
-      <div>
-        <h1> Sculptez votre peau avec une méthode 100% naturelle </h1>
-        <input class="favorite styled" type="button" value="Découvrir">
-      </div>
-      <div class="points">
-                <span></span>
-                <span></span>
-                <span></span>
-        </div>
-    </main>
-</boby>
-</html>
