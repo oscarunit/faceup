@@ -5,6 +5,20 @@ header{
 
 }
 
+header img{
+  margin: 30px, auto;
+  height: 58px;
+  width: auto;
+}
+
+ul .navbar_menu{
+  list-style: none;
+}
+
+ul .navbar_menu > li{
+  display: inline-block;
+}
+
 nav .menu{
   display: flex;
   justify-content: center;
