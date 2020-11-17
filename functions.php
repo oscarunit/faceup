@@ -1,5 +1,7 @@
 <?php
 
+function faceup_register_assets(){
+
 // Déclarer style.css à la racine du thème
 wp_enqueue_style(
     'theme_faceup',
@@ -15,3 +17,6 @@ wp_enqueue_style(
     array(),
     '1.0'
 );
+
+}
+add_action( 'wp_enqueue_scripts', 'faceup_register_assets' );

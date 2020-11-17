@@ -5,5 +5,7 @@
 	<a href="https://www.instagram.com/prendrerendezvous/" id="BoutonRdv">Prendre rendez-vous</a>
 </footer>
 
+<?php wp_footer(); ?>
+
 </body>
 </html>
