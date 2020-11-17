@@ -6,3 +6,9 @@ Description: Thème du site web FaceUp. Développé par l'Agence Bzzz. Novembre 
 Version: 1.0
 License: GNU General Public License v2 or later
 */
+
+header{
+  height:150px;
+  width: 100%;
+  background-color: tomato;
+}
