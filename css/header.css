@@ -1,5 +1,11 @@
 header{
   height:150px;
   width: 100%;
-  background-color: tomato;
+  background-color: rgba(0,0,0,0);
+
+}
+
+nav .menu{
+  display: flex;
+  justify-content: center;
 }
