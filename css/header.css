@@ -1,21 +1,41 @@
-header{
-  height:150px;
-  width: 100%;
-  background-color: rgba(0,0,0,0);
-
+header>a
+{
+    display : block;
+    width : 250px;
+    height : auto;
+    margin : 30px auto;
 }
 
-header img{
-  margin: 30px, auto;
-  height: 58px;
-  width: auto;
+.menu
+{
+    position : relative;
+    display : flex;
+    justify-content : center;
+    list-style : none;
 }
 
-div.menu > ul{
-  list-style-type: none;
-  display: inline-flex;
+.menu>.menu-item-object-page
+{
+    margin-bottom : 53px;
 }
 
-.menu > ul > li{
-  color: black;
+.menu>.menu-item-object-page:not(:first-child)
+{
+    border-left : 1px solid #FFC107;
+}
+
+.menu>.menu-item-object-page a
+{
+    color : #FFC107;
+    font-family: 'Inria Serif', serif;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration : none;
+    padding : 0 24px;
+}
+
+.menu .sub-menu
+{
+    position : absolute;
+    visibility : hidden;
 }
