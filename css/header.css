@@ -24,7 +24,15 @@ header>a
     border-left : 1px solid #FFC107;
 }
 
-.menu>.menu-item-object-page a
+.menu>.menu-item-object-page:hover>.sub-menu
+{
+    visibility : visible;
+    transform : translateY(0px);
+    opacity : 100%;
+    transition-duration : .2s;
+}
+
+.menu>.menu-item-object-page>a
 {
     color : #FFC107;
     font-family: 'Inria Serif', serif;
@@ -38,4 +46,30 @@ header>a
 {
     position : absolute;
     visibility : hidden;
+    top : 30px;
+    background: rgba(255, 193, 7, 0.8);
+    border-top : solid 8px white;
+    transform : translateY(-15px);
+    opacity : 0%;
+    transition-duration : .2s;
+}
+
+.menu .sub-menu>.menu-item-object-page
+{
+    margin : 16px 24px;
+}
+
+.menu .sub-menu a
+{
+    color : white;
+    font-family: 'Inria Serif', serif;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration : none;
+}
+
+.menu .sub-menu>.menu-item-object-page:not(:last-child)
+{
+    border-bottom : 1px solid white;
+    padding : 8px 0;
 }
