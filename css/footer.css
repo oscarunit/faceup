@@ -1,45 +1,59 @@
 footer{
-  background-color: #FFC107;;
+  background-color: #FFC107;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.container > div {
-  width : 150px;
-  height : 150px;
-  border : 1 px solid
+
+div {
+  width: 25%;
+  margin: 0 30px;
 }
 
 .container{
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+}
+
+p {
+  padding: 5px 0;
+  text-decoration: none;
+	color: #ffffff;
+  font-family: 'Glisa', sans-serif;
+  font-size: 16px;
 }
 
 a {
   text-decoration: none;
-	color: #ffffff;
+  color: #ffffff;
+  font-family: 'Glisa', sans-serif;
 }
 
-.info{
-	color: #ffffff;
-  font-family: 'Glisa', sans-serif;
-  display: flex;
-  font-size: 16px;
-  width:800px;
-  padding:5px;
-  float:left;width:100px;
+.informations{
+
 }
 
-.mentionlegale{
-  font-family: 'Glisa', sans-serif;
+.legalmention{
   text-align: center;
-  margin:0 auto;width:100px;
+  margin:0 auto;
 }
 
-.rendezvous{
-  font-family: 'Glisa', sans-serif;
-  float: right;
-  margin-left:5%;
-  float:right;width:100px;
+.button{
+  background-color: #ffffff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+img {
+  width:50px;
 }
