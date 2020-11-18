@@ -11,15 +11,7 @@ header img{
   width: auto;
 }
 
-ul .navbar_menu{
-  list-style: none;
-}
-
-ul .navbar_menu > li{
-  display: inline-block;
-}
-
-nav .menu{
-  display: flex;
-  justify-content: center;
+div.menu > ul{
+  list-style-type: none;
+  display: inline-flex;
 }
