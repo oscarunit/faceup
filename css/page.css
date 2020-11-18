@@ -1,0 +1,114 @@
+main
+{
+    padding : 0 12%;
+}
+
+main h1
+{
+    width : calc(100% - 2*25%);
+    font-family: 'Josefin Sans', serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFC107;
+    margin : 32px auto 64px auto;
+}
+
+main h2
+{
+    font-family: 'Josefin Sans', serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom : 16px;
+}
+
+main p
+{
+    font-family: 'Inria Serif', serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+
+main .wp-block-media-text
+{
+    padding : 16px 0;
+}
+
+main div.wp-block-media-text figure img
+{
+    display : block;
+    width: 592px;
+    height: auto;
+}
+
+main div.has-media-on-the-right figure img
+{
+    margin :auto 0 auto auto;
+}
+
+main div .wp-block-media-text.has-media-on-the-right
+{
+    align-items: end;
+}
+
+main .wp-block-media-text .wp-block-media-text__content
+{
+    padding : 0;
+    margin : auto 0;
+}
+
+main div .wp-block-media-text__content .wp-block-buttons a
+{
+    color: #FFC107;
+    background : none;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform : uppercase;
+    border: 1px solid #FFC107;
+    border-radius: 72px;
+    padding : 16px 28px;
+    margin-top : 48px;
+}
+
+main .wp-block-columns
+{
+    margin-top : 80px;
+}
+
+main .wp-block-quote
+{
+    position : relative;
+    width : calc(100% - 85px);
+    border-left : 6px solid #FFC107;
+    padding-left : 85px;
+    margin : 210px 0 238px 0;
+}
+
+main .wp-block-quote p
+{
+    font-family: 'Josefin Sans', serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main .wp-block-quote cite
+{
+    display : flex;
+    font-family: 'Josefin Sans', serif;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+    justify-content : center;
+    margin-top : 24px;
+}
