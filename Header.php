@@ -21,5 +21,5 @@
         <a href="<?php echo home_url( '/' ); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/image/faceup.svg" alt="Logo FaceUp - Retour à l'accueil">
         </a>
-        <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
+        <div class="top_menu"><?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?></div>
       </header>

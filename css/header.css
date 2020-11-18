@@ -15,3 +15,7 @@ div.menu > ul{
   list-style-type: none;
   display: inline-flex;
 }
+
+.top_menu{
+  color: black;
+}
