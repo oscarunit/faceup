@@ -16,6 +16,6 @@ div.menu > ul{
   display: inline-flex;
 }
 
-.top_menu{
+.menu > ul > li{
   color: black;
 }
