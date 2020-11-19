@@ -38,6 +38,11 @@ main .wp-block-media-text
     padding : 16px 0;
 }
 
+main div.wp-block-media-text figure
+{
+  overflow: hidden;
+}
+
 main div.wp-block-media-text figure img
 {
     display : block;
