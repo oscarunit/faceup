@@ -112,3 +112,9 @@ main .wp-block-quote cite
     justify-content : center;
     margin-top : 24px;
 }
+
+.wp-block-separator {
+  background-color:#ffc107;
+  color:#ffc107;
+  margin: 50px auto;
+}
