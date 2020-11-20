@@ -148,3 +148,28 @@ main .wp-block-quote cite
 .person_description{
 margin: -20px 0 20px;
 }
+
+.wp-image-46{
+  transform: translate(200px, -400px);
+}
+
+.button_block{
+  margin-top: 20px;
+  float: left;
+}
+
+.wp-block-button__link:visited{
+  color: #ffc107;
+}
+
+.wp-block-button__link:visited:hover{
+  color: #ffc107;
+}
+
+h3{
+  font-size: 20px;
+}
+
+.hr_negative_margin{
+  margin-top: -300px;
+}
