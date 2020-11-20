@@ -1,6 +1,7 @@
 main
 {
     padding : 0 12%;
+    margin-bottom: 100px
 }
 
 main h1
@@ -93,7 +94,7 @@ main .wp-block-quote
     width : calc(100% - 85px);
     border-left : 6px solid #FFC107;
     padding-left : 85px;
-    margin : 210px 0 238px 0;
+    margin : 100px 0 30px;
 }
 
 main .wp-block-quote p
@@ -119,7 +120,31 @@ main .wp-block-quote cite
 }
 
 .wp-block-separator {
-  background-color:#ffc107;
-  color:#ffc107;
-  margin: 50px auto;
+  margin: 100px auto;
+  border-bottom-color: #ffc107;
+}
+
+.wp-block-button__link{
+  background: none;
+  border: 1px solid #ffc107;
+  color: #ffc107;
+  font-family: 'Josefin Sans', serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.wp-block-button__link:hover{
+  background-color: #ffc107;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.wp-block-buttons{
+  text-align: center;
+}
+
+.person_description{
+margin: -20px 0 20px;
 }
